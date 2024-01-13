@@ -6,7 +6,7 @@ Welcome to BoostSnippets, a repository dedicated to offering a collection of con
 
 This repository features a series of small, easy-to-understand programs written in C++ using the Boost library. Each snippet focuses on a specific element of the library, demonstrating its usage and potential applications. The goal is to provide a hands-on learning experience for those new to Boost, as well as a quick reference for more experienced developers.
 
-# Table of contents
+## Table of contents
 1. [Contents](#contents)
 1. [Prerequisites](#prerequisites)
 2. [Installation and Usage](#installation)
@@ -48,25 +48,25 @@ The recommended way to use the project, is to open it with CLion. To do this, si
 ### Building the Snippets
 
 1. **Navigate to the Repository Directory**: 
-    ```bash
-    cd BoostSnippets
-    ```
+```bash
+   cd BoostSnippets
+```
 
 2. **Create a Build Directory**: (optional, for out-of-source build)
-    ```bash
-    mkdir build && cd build
-    ```
+```bash
+   mkdir build && cd build
+ ```
 
 3. **Run CMake**: 
-    ```bash
-    cmake ..
-    ```
+```bash
+   cmake ..
+ ```
 This command will configure the project and generate the necessary build files. Ensure that CMake finds the Boost library. If Boost is installed in a non-standard location, you might need to specify the path using `-DBOOST_ROOT`.
 
 4. **Build the Project**: 
-    ```bash
-    make
-    ```
+```bash
+   make
+ ```
 This will compile all the executable targets defined in the CMakeLists.txt file, such as `InputArguments`, `Any`, `Variant`, and `Optional`.
 
 ### Running the Executables
@@ -74,9 +74,9 @@ This will compile all the executable targets defined in the CMakeLists.txt file,
 After building, you can find the executables in the build directory. Run them directly from the command line. For example:
 
 - To run the `InputArguments` program:
-    ```bash
-    ./InputArguments [arguments]
-    ```
+```bash
+   ./InputArguments [arguments]
+```
 - Similarly, execute `Any`, `Variant`, and others.
 
 ## Contributing
